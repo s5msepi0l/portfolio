@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Ubuntu&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <!-- Don't have any plans as of now to give these buttons any functionality-->
+                <div class="buttons">
+                    <div onclick="allat()" class="btn red"></div>
+                    <div onclick="allat()" class="btn yellow"></div>
+                    <div onclick="allat()" class="btn green"></div>
+                </div>
+
+                <h1 id="header" class="white small">Jacob Lindorg: ~/</h1> <!-- Display current directory e.g NAME: ~/ -->
+            
+                <div class="lang-container">
+                    <button onclick="allat()" class="white smaller lang">Sv</button>
+                    <button onclick="allat()" class="white smaller lang">En</button>    
+                </div>
+            
+            </header>
+
+            <!-- contains all user application, IO, etc-->
+            <div class="terminal">
+                <!-- Global output except for the header directory which is automatically adjusted by the "kernel"-->
+                <p id="__std_out__" class="white">
+                </p>
+
+            </div>
+        
+        </main>
+
+        <script src="main.js"></script>
+   </body>
+</html>
