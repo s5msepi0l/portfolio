@@ -95,12 +95,22 @@ header  .buttons {
     background-color: rgb(45, 45, 45);
 }
 
-/*  LEAVE ME    */
+.help-note {
+    position: absolute;
+
+    width: 20vw;
+    height: 20vh;
+
+    top: 0;
+    left: 0;
+}
+
+/*  LEAVEME    */
 #__std_out__ {
     padding-left: 10px;
 }
 
-/*  LEAVE ME    */
+/*  LEAVEME    */
 #__std_in__ {
     position: fixed;
 }
